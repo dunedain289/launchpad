@@ -1,0 +1,9 @@
+= simple_form_for @rocket do |f|
+  = f.error_notification
+  = f.input :name
+  = f.input :diameter_mm
+  = f.input :length_mm
+  = f.input :motor_mount_mm
+  = f.input :mass_g
+  = f.input :comment
+  = f.button :submit

@@ -1,0 +1,13 @@
+%h1= @rocket.name
+
+%dl.attrs
+  %dt Motor Mount
+  %dd= @rocket.motor_mount_mm
+  %dt Mass
+  %dd= @rocket.mass_g
+
+%h2 Comment
+#comment= simple_format @rocket.comment
+
+%h2 Flights
+#flights= render @rocket.flights

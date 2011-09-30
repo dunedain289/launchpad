@@ -1,0 +1,8 @@
+%div[flight]
+  %h2
+    = link_to flight.name, [flight.rocket, flight]
+  %dl.attrs
+    %dt Result
+    %dd= flight.result
+    %dt Motor
+    %dd= flight.motor_designation
