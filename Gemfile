@@ -11,6 +11,8 @@ gem "haml"
 gem "mongoid"
 gem "bson_ext"
 
+gem "simple_form"
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -34,3 +36,5 @@ group :test do
   # Pretty printed test output
   gem 'turn', :require => false
 end
+
+gem "thin"
